@@ -1,0 +1,13 @@
+[debug] [2021-02-18T03:59:01.718Z] ----------------------------------------------------------------------
+[debug] [2021-02-18T03:59:01.719Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\revie\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2021-02-18T03:59:01.720Z] CLI Version:   9.4.0
+[debug] [2021-02-18T03:59:01.720Z] Platform:      win32
+[debug] [2021-02-18T03:59:01.720Z] Node Version:  v12.18.3
+[debug] [2021-02-18T03:59:01.721Z] Time:          Thu Feb 18 2021 10:59:01 GMT+0700 (GMT+07:00)
+[debug] [2021-02-18T03:59:01.721Z] ----------------------------------------------------------------------
+[debug] [2021-02-18T03:59:01.721Z] 
+[debug] [2021-02-18T03:59:01.726Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-02-18T03:59:01.727Z] > authorizing via signed-in user
+[debug] [2021-02-18T03:59:01.727Z] [iam] checking project blogpost-calendar for permissions ["firebase.projects.get"]
+[debug] [2021-02-18T03:59:01.729Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/blogpost-calendar:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
