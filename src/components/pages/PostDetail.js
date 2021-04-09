@@ -4,8 +4,10 @@ class PostDetails extends Component {
   state = {};
   render() {
     return (
-      <div>
-        <h1>PostDetail</h1>
+      <div className="post-detail">
+        <h1>BarBQ Plaza Party</h1>
+
+        <p>TMR BBQ PLAZA BUFFET AT Robinson Ladkrabang!</p>
       </div>
     );
   }
