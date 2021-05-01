@@ -27,6 +27,7 @@ class PostDetails extends Component {
       head = <>{post.title}</>;
       content = <>{post.content}</>;
     }
+    console.log(post);
     return (
       <div className="post-detail">
         <h1>{head}</h1>
