@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { Link, Redirect } from "react-router-dom";
+import { Searchbar } from "./";
 class Navbar extends Component {
   state = {};
   render() {
@@ -12,6 +13,9 @@ class Navbar extends Component {
           <li>
             <Link to="/create-post">Create Post</Link>
           </li>
+          <form onSubmit={<Redirect to="/search" />}>
+            <input type="text" />
+          </form>
         </ul>
       </div>
     );
